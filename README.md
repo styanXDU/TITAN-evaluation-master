@@ -29,21 +29,6 @@ System: Sure, there is one such facility, The Cherry Hinton Village Centre, loca
 User: Can help me find a restaurant that serves Belgian food in the centre?  
 System: I'm sorry, we don't have any Belgian restaurants. Would you like to try a different type? We have African food in the center.  
 User: African food is fine.
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
 ## Evaluation
 We follow the evaluation method proposed in "Shades of {BLEU}, Flavours of Success: The Case of {M}ulti{WOZ}".   
 Preprocessed files for TITAN is presented at TITAN-Evaluation-maste\titan_eval\data
@@ -100,6 +85,8 @@ python evaluate.py [--bleu] [--success] [--richness] --input INPUT.json [--outpu
 }
 
 ```
+## Ackowledgement
+We sincerely appreciate for the contributuion of the annotators that involved in TITAN annotation process. We also thank Budzianowski and their team for the creation and release for MultiWOZ dataset that provide a large-scale dialogue corpus for TITAN reorganization. The evaluation method we used for mixed-initiative stratiges is referenced from Nekvinda and their reserach groop.
 
 
 
