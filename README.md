@@ -85,7 +85,7 @@ python evaluate.py [--bleu] [--success] [--richness] --input INPUT.json [--outpu
 }
 
 ```
-## Ackowledgement
+## Acknowledgement
 We sincerely appreciate for the contributuion of the annotators that involved in TITAN annotation process. We also thank Budzianowski and their team for the creation and release for MultiWOZ dataset that provide a large-scale dialogue corpus for TITAN reorganization. The evaluation method we used for mixed-initiative stratiges is referenced from Nekvinda and their reserach groop.
 
 
